@@ -8,7 +8,7 @@ To run the server, do `uvicorn main:app --reload`, which will run the project on
 
 The endpoints are:
 * `/special-math/{number}`
-* `/special-math/{number}no-recursion`
+* `/special-math/{number}/no-recursion`
 
 The first runs the function with the `@cache` decorator and does recursion. The second, as the name imples, uses a non-recursive solution, and can therefore accept larger numbers.
 
